@@ -5,4 +5,4 @@ for n_trasacao in range(1, quantidade_transacoes + 1, 1):
     total_transacoes = total_transacoes + trasacao
 
 media = total_transacoes /  quantidade_transacoes
-print("Neste dia foi gasto um total de R$ {}, com uma media de R${} por transação." .format(total_transacoes, media))
+print("Neste dia foi gasto um total de R$ {}, com uma media de R${:.2f} por transação." .format(total_transacoes, media))
