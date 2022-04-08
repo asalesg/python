@@ -8,6 +8,6 @@ def somar():
 
 '''import calculadora
 ou 
-form calculadora import somar
+form calculadora import somar #se eu colocar * no somar, nao precisa "calculadora".somar
 calculadora.somar()'''
 somar()
